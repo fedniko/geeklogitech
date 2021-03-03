@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .heading {
@@ -291,7 +291,7 @@ body {
         gap: 30px;
     }
 
-    info__item-heading {
+    .info__item-heading {
         margin-bottom: 5px;
     }
 
@@ -306,7 +306,111 @@ body {
 
     .flow {
         padding-bottom: 498px;
+        padding-left: 64px;
+        padding-right: 65px;
+    }
 
+    .text_flow-p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .flow__ol {
+        display: flex;
+        list-style-position: inside;
+        padding-left: 0;
+    }
+
+    .text_flow {
+        width: auto;
+        padding: 8px 21px 4px 28px;
+        border-left: 1px solid #494949;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .text_flow:first-child {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .text_flow:last-child {
+        padding-right: 0;
+    }
+
+    .settings {
+        padding-bottom: 70px;
+    }
+
+    .settings__slider {
+        margin: 54px 198px 150px;
+    }
+
+    .settings__content {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+
+    .settings_icons {
+        margin-right: 104px;
+        margin-left: 98px;
+    }
+
+    .settings__img {
+        height: 35px;
+    }
+
+    .heading_settings {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+
+    .text_settings-p {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+
+
+    .text_settings {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .text_mouse {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .mouse__text {
+        padding-left: 67px;
+        padding-right: 62px;
+        padding-bottom: 50px;
+    }
+
+    .mouse__img {
+        height: 549px;
+    }
+
+    .mouse__img1 {
+        background-image: url("img/MXLS2.png");
+    }
+
+    .mouse__img2 {
+        background-image: url("img/MXLS3.png");
+    }
+
+    .footer {
+        font-size: 14px;
+        line-height: 16px;
+        height: 150px;
+        padding-top: 47px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 580px);
+        padding-right: calc(50% - 580px);
     }
 }
 
