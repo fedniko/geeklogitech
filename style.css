@@ -39,6 +39,10 @@ body {
     margin-right: 11px;
 }
 
+.header__logo_dark {
+    width: 130px;
+}
+
 .header__logo_white {
     display: none;
 }
